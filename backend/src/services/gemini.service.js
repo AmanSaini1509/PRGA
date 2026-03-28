@@ -3,5 +3,5 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-export const ai = new GoogleGenAI({apiKey: "AIzaSyDlYI9B3unkyA8ma6yJon0olTILaaPgXH4"});
+export const ai = new GoogleGenAI({apiKey: process.env.GEMINI_API_KEY});
 
